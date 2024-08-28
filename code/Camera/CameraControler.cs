@@ -18,6 +18,6 @@ public sealed class CameraControler : Component
 		var dir = Mouse.Position - Screen.Size / 2;
 		dir = -dir.Normal;
 		var targetRot = Rotation.LookAt(new Vector3(dir.y,dir.x,0));
-		Body.Transform.Rotation = Rotation.Lerp( Body.Transform.Rotation, targetRot, 0.4f );
+		Body.Transform.Rotation = Rotation.Lerp( Body.Transform.Rotation, targetRot, Time.Delta * 10.0f );
 	}
 }

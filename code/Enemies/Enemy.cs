@@ -13,7 +13,7 @@ public sealed class Enemy : Component, IDeathListener
 
 	protected override void OnFixedUpdate()
 	{
-		Transform.Rotation = Rotation.LookAt( Player.Transform.Position - Transform.Position );
+		Transform.Rotation = Rotation.Lerp(Transform.Rotation, Rotation.LookAt( Player.Transform.Position - Transform.Position ), Scene.FixedDelta * 5.0f);
 
 		var moveDir = Transform.Rotation.Forward * Speed;
 		Transform.Position += moveDir;
