@@ -1,0 +1,187 @@
+{
+  "RootObject": {
+    "__guid": "5544339b-6471-4f3f-989d-65235d697063",
+    "Flags": 0,
+    "Name": "teleportzone",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Health",
+        "__guid": "5e04ea7e-ca46-4e3f-b847-0a996ff3e96b",
+        "Invincible": true,
+        "CurHealth": 0,
+        "MaxHealth": 0
+      },
+      {
+        "__type": "Sandbox.SphereCollider",
+        "__guid": "f74d9164-9500-469b-a500-b816a26b9f71",
+        "Center": "0,0,0",
+        "IsTrigger": false,
+        "Radius": 29.199995,
+        "Static": false
+      },
+      {
+        "__type": "Teleporter",
+        "__guid": "62bae66b-aefb-44ae-a49e-97a00a5d75a3",
+        "Collider": {
+          "_type": "component",
+          "component_id": "f74d9164-9500-469b-a500-b816a26b9f71",
+          "go": "5544339b-6471-4f3f-989d-65235d697063",
+          "component_type": "SphereCollider"
+        }
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "2e9d975c-f842-453a-91ad-6fd5e5d13597",
+        "Flags": 0,
+        "Name": "Box",
+        "Position": "0,0,-7.632845",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.MeshComponent",
+            "__guid": "b09493ee-da85-4f98-9b7e-fb0e6a6cff8c",
+            "Collision": "None",
+            "Color": "0.91915,0.30698,1,1",
+            "HideInGame": false,
+            "IsTrigger": false,
+            "Mesh": {
+              "Topology": "H4sIAAAAAAAACq2Ryw7CMAwETSEtj/QSLvQC/P9PtjvS\u002BlL1BLE0ihzH9sauEfEVRaw7q7o7i\u002Bb4S0ziLU7i4fMjLuIqwu/IL86fHb\u002BLwfnEqcWbp\u002BNJdfzmfovvR9MOtP5ixdrQiJ\u002B9U8e/9dHO33K2qZ2zR33mw2zog8/8mT3Woz77ZbfsGJ/9sTt2eFSftxuyFcpqUAIAAA==",
+              "Positions": [
+                "-8,-8,0",
+                "8,-8,0",
+                "8,8,0",
+                "-8,8,0",
+                "8,24,0",
+                "24,8,0",
+                "-24,8,0",
+                "-8,24,0",
+                "-8.399371,-24,0",
+                "-24,-8,0",
+                "24,-8,0",
+                "8,-24,0"
+              ],
+              "TextureCoord": [
+                "0.0625,1.6875",
+                "0,0",
+                "0.1875,1.4375",
+                "0,0",
+                "-0.0625,1.3125",
+                "0,0",
+                "-0.1875,1.5625",
+                "0,0",
+                "0,0",
+                "0.03125,-0.0625",
+                "0,0",
+                "0,0",
+                "0,0",
+                "0.0625,1.3125",
+                "0,0",
+                "-0.0625,-0.03125",
+                "0,0",
+                "0,0",
+                "0,0",
+                "-0.1875,1.4375",
+                "0,0",
+                "-0.03125,0.0625",
+                "0,0",
+                "0,0",
+                "0,0",
+                "-0.06562009,1.6875",
+                "0,0",
+                "0.046875,0.046875",
+                "0,0",
+                "0,0",
+                "0,0",
+                "0.1875,1.5625"
+              ],
+              "TextureUAxis": [
+                "1,0,0",
+                "1,0,0",
+                "1,0,0",
+                "1,0,0",
+                "1,0,0"
+              ],
+              "TextureVAxis": [
+                "0,-1,0",
+                "0,-1,0",
+                "0,-1,0",
+                "0,-1,0",
+                "0,-1,0"
+              ],
+              "TextureScale": [
+                "0.25,0.25",
+                "0.25,0.25",
+                "0.25,0.25",
+                "0.25,0.25",
+                "0.25,0.25"
+              ],
+              "TextureOffset": [
+                "0,256",
+                "0,256",
+                "0,256",
+                "0,256",
+                "0,256"
+              ],
+              "MaterialIndex": [
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "EdgeFlags": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Materials": [
+                "materials/dev/reflectivity_30.vmat",
+                "materials/dev/primary_white.vmat"
+              ]
+            },
+            "SmoothingAngle": 40,
+            "Static": false
+          }
+        ]
+      }
+    ],
+    "__variables": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

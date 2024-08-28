@@ -1,0 +1,98 @@
+{
+  "RootObject": {
+    "__guid": "fd746a43-9e58-41d2-8f9f-f46d79f478cb",
+    "Flags": 0,
+    "Name": "projectile",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Projectile",
+        "__guid": "65dcded8-33b5-4443-81b7-536f3489b0ee",
+        "IgnoreTags": "player",
+        "Speed": 5
+      },
+      {
+        "__type": "DestroyAfter",
+        "__guid": "c1443393-0dbb-410e-932f-4a19c942c323",
+        "Length": 3
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "1b02468e-c426-47fb-af78-821fd54c5dc5",
+        "Flags": 0,
+        "Name": "Mesh",
+        "Position": "0,0,-8",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.MeshComponent",
+            "__guid": "64792cd6-36f0-48d4-b993-fe3e4998f719",
+            "Collision": "Mesh",
+            "Color": "1,0.95023,0.50233,1",
+            "HideInGame": false,
+            "IsTrigger": false,
+            "Mesh": {
+              "Topology": "H4sIAAAAAAAACk2MAQoAIAgDrSz7/4drBwoOjmKbczO7Ygg0hYuTHuB1hXgS/so\u002Bqi4vOdnOrb6NT15bJXy63JDz/\u002Bg6SXigAAAA",
+              "Positions": [
+                "-8,-7.999999,0",
+                "24,-7.999999,0",
+                "24,7.999999,0",
+                "-8,7.999999,0"
+              ],
+              "TextureCoord": [
+                "0.1875,0.06249999",
+                "0,0",
+                "0.1875,-0.06249999",
+                "0,0",
+                "-0.0625,-0.06249999",
+                "0,0",
+                "-0.0625,0.06249999",
+                "0,0"
+              ],
+              "TextureUAxis": [
+                "1,0,0"
+              ],
+              "TextureVAxis": [
+                "0,-1,0"
+              ],
+              "TextureScale": [
+                "0.25,0.25"
+              ],
+              "TextureOffset": [
+                "0,0.000001907349"
+              ],
+              "MaterialIndex": [
+                2
+              ],
+              "EdgeFlags": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Materials": [
+                "materials/dev/reflectivity_30.vmat",
+                "materials/dev/primary_white_emissive.vmat",
+                "materials/dev/primary_white.vmat"
+              ]
+            },
+            "SmoothingAngle": 40,
+            "Static": true
+          }
+        ]
+      }
+    ],
+    "__variables": []
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}
