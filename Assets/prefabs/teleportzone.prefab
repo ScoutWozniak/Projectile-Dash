@@ -129,7 +129,7 @@
                 0,
                 0,
                 0,
-                1
+                2
               ],
               "EdgeFlags": [
                 0,
@@ -167,7 +167,8 @@
               ],
               "Materials": [
                 "materials/dev/reflectivity_30.vmat",
-                "materials/dev/primary_white.vmat"
+                "materials/dev/primary_white.vmat",
+                "materials/dev/primary_white_emissive.vmat"
               ]
             },
             "SmoothingAngle": 40,

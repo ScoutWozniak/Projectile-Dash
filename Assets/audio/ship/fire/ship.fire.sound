@@ -4,7 +4,13 @@
   "Pitch": "1",
   "Decibels": 70,
   "SelectionMode": "Random",
-  "Sounds": null,
+  "Sounds": [
+    "audio/ship/fire/0lasersmall_000.vsnd",
+    "audio/ship/fire/1lasersmall_001.vsnd",
+    "audio/ship/fire/2lasersmall_002.vsnd",
+    "audio/ship/fire/3lasersmall_003.vsnd",
+    "audio/ship/fire/4lasersmall_004.vsnd"
+  ],
   "Occlusion": true,
   "AirAbsorption": true,
   "Transmission": true,
